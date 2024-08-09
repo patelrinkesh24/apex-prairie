@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NFT Grid</title>
+  <style>
+    .nft-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      max-width: 1200px;
+      margin: 20px auto;
+    }
+
+    .nft-card {
+      background-color: #282c34;
+      background: linear-gradient(0deg, rgba(40, 44, 52, 1) 0%, rgba(17, 0, 32, .5) 100%);
+      box-shadow: 0 7px 20px 5px #00000088;
+      border-radius: .7rem;
+      backdrop-filter: blur(7px);
+      -webkit-backdrop-filter: blur(7px);
+      overflow: hidden;
+      transition: .5s all;
+      padding: 20px;
+      text-align: center;
+      color: #eee;
+    }
+
+    .nft-card img {
+      border-radius: .5rem;
+      max-width: 100%;
+      height: 200px;
+      object-fit: actual;
+      margin-bottom: 10px;
+    }
+
+    .nft-card h2 {
+      margin: 10px 0;
+    }
+
+    .nft-card .description {
+      margin: 10px 0;
+      color: #a89ec9;
+    }
+
+    .nft-card .price {
+      display: flex;
+      align-items: center;
+      color: #ee83e5;
+      font-weight: 700;
+    }
+
+
+    .nft-card hr {
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid #88888855;
+      margin: 20px 0;
+    }
+
+    .nft-card .creator {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .nft-card .creator img {
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      object-fit: cover;
+      margin-right: 10px;
+    }
+
+    .nft-card .creator ins {
+      color: #a89ec9;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <section>
+    <div class="row nft-container" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-lg-4 col-md-6 mb-4 nft-card filter-app">
+        <img src="project-1.jpg" class="img-fluid" alt="Deploy Docker Container on Amazon Linux EC2" style="width:450xpx;height:300px;">
+        <h2>Terraform Deployment</h2>
+        <p class="price">lorem</p>
+        <hr />
+        <div class='creator'>
+          <p><ins>Link</ins></p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4 nft-card filter-app">
+        <img src="project-1.jpg" class="img-fluid" alt="Deploy Docker Container on Amazon Linux EC2" style="width:450xpx;height:300px;">
+        <h2>Terraform Deployment</h2>
+        <p class="price">lorem</p>
+        <hr />
+        <div class='creator'>
+          <p><ins>Link</ins></p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4 nft-card filter-app">
+        <img src="project-1.jpg" class="img-fluid" alt="Deploy Docker Container on Amazon Linux EC2" style="width:450xpx;height:300px;">
+        <h2>Terraform Deployment</h2>
+        <p class="price">lorem</p>
+        <hr />
+        <div class='creator'>
+          <p><ins>Link</ins></p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4 nft-card filter-app">
+        <img src="project-1.jpg" class="img-fluid" alt="Deploy Docker Container on Amazon Linux EC2" style="width:450xpx;height:300px;">
+        <h2>Terraform Deployment</h2>
+        <p class="price">lorem</p>
+        <hr />
+        <div class='creator'>
+          <p><ins>Link</ins></p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4 nft-card filter-app">
+        <img src="project-1.jpg" class="img-fluid" alt="Deploy Docker Container on Amazon Linux EC2" style="width:450xpx;height:300px;">
+        <h2>Terraform Deployment</h2>
+        <p class="price">lorem</p>
+        <hr />
+        <div class='creator'>
+          <p><ins>Link</ins></p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4 nft-card filter-app">
+        <img src="project-1.jpg" class="img-fluid" alt="Deploy Docker Container on Amazon Linux EC2" style="width:450xpx;height:300px;">
+        <h2>Terraform Deployment</h2>
+        <p class="price">lorem</p>
+        <hr />
+        <div class='creator'>
+          <p><ins>Link</ins></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+</body>
+
+</html>
